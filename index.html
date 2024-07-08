@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Underdog&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/35-removebg-preview.png"
+    />
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sweet Pet Care Services</title>
+  </head>
+  <body>
+    <!-- Nav Container -->
+    <nav class="sticky top-0 h-[90px] z-40 bg-white container mx-auto p-6">
+      <!--  -->
+      <div class="">
+        <!--  -->
+        <div class="flex items-center justify-between">
+          <!-- logo -->
+          <div>
+            <img src="img/logo-23.jpg" alt="" />
+          </div>
+          <!-- link -->
+          <div class="hidden space-x-8 font-bold lg:flex">
+            <a href="#Home" class="text-gray-400 hover:text-red-400">Home</a>
+            <a href="#About" class="text-gray-400 hover:text-red-400">About</a>
+            <a href="#Service" class="text-gray-400 hover:text-red-400"
+              >Service</a
+            >
+            <a href="#Contact" class="text-gray-400 hover:text-red-400"
+              >Contact</a
+            >
+
+            <div>
+              <a
+                href="#Appointment"
+                class="py-2 px-4 bg-yellow-500 rounded-xl text-white"
+                >Get Appointment</a
+              >
+            </div>
+          </div>
+          <!-- Hamburger Button -->
+          <button
+            id="menu-btn"
+            class="block hamburger lg:hidden focus:outline-none"
+            type="button"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div
+          id="menu"
+          class="absolute hidden p-6 rounded-lg bg-yellow-500 left-6 right-6 top-20 z-100 md:hidden"
+        >
+          <div
+            class="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm"
+          >
+            <a href="#Home" class="w-full text-center">Home</a>
+            <a href="#About" class="w-full text-center">About</a>
+            <a href="#Service" class="w-full text-center">Service</a>
+            <a
+              href="#Contact"
+              class="w-full pt-6 border-t border-red-400 text-center"
+              >Contact</a
+            >
+            <a
+              href="#Appointment"
+              class="w-full py-3 text-center rounded-full bg-red-500"
+              >Get Appointment</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section
+      id="Home"
+      class="h-[640px] bg-hero bg-center bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] bg-red-50"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-r fro-[#1e2026] t0-[#000000] opacity-90"
+      ></div>
+      <div class="hero--image max-w-6xl mx-auto p-6">
+        <div class="text-white text-center mt-40">
+          <p class="mb-5 text-yellow-500">Sweet Pet Care Services</p>
+          <h1 class="font-bold text-red-500 text-6xl mb-5">
+            We Provide Care, That Your Pet Deserves!
+          </h1>
+          <!--  -->
+          <div class="mt-6">
+            <a href="#Service" class="px-4 py-2 bg-amber-500 rounded-xl"
+              >VIEW MORE</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section class="">
+      <div class="max-w-6xl mx-auto py-24 p-6">
+        <div
+          class="flex flex-col-reverse text-center gap-12 justify-between md:text-left md:flex-row"
+        >
+          <div class="about--text md:w-1/2">
+            <img src="img/dog-about.png" alt="" />
+          </div>
+          <!--  -->
+          <div
+            class="about--image md:w-1/2 flex flex-col items-center justify-center"
+          >
+            <p class="text-3xl mb-5 font-bold text-yellow-500">Who We Are</p>
+            <h2 class="text-5xl font-bold mb-5 text-red-500">
+              We Love Your Pet, Just as You Do!
+            </h2>
+            <p class="text-gray-400">
+              your pets are in good hands and a high level of professionalism
+              and care in the treatment of your pets, we know there are pat of
+              your family so we treat them like our family too
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- care section  -->
+    <section id="Service" class="bg-red-50">
+      <div class="mt-20 container max-w-6xl py-24 mx-auto p-6">
+        <div class="features-box mb-20">
+          <h3 class="text-5xl text-center font-bold text-red-500">
+            Choose How You Want Us to Care for Your Pet!
+          </h3>
+        </div>
+        <!--  -->
+        <div class="flex flex-col space-y-5 md:flex-row md:space-y-0 gap-5">
+          <!-- about-1 -->
+          <div class="care py-4 px-8 rounded-lg shadow-xl bg-white">
+            <div class="flex items-center justify-center md:">
+              <img src="img/sitting-free-img.png" class="text-center" alt="" />
+            </div>
+            <div class="text-center">
+              <h4 class="text-xl mb-4 font-bold text-red-500">Pet Sitting</h4>
+              <p class="text-gray-400">
+                we take care of your pets for a given time frame when you are
+                not at home we give your pet the love and care...
+              </p>
+            </div>
+          </div>
+
+          <!-- about-2 -->
+          <div class="care py-4 px-8 rounded-lg shadow-xl bg-white">
+            <div class="flex items-center justify-center">
+              <img src="img/minding-free-img.png" class="text-center" alt="" />
+            </div>
+            <div class="text-center">
+              <h4 class="text-xl mb-4 font-bold text-red-500">Pet Minding</h4>
+              <p class="text-gray-400">
+                for those who want their pets to receive individual attention
+                and care while they are away
+              </p>
+            </div>
+          </div>
+
+          <!-- about-2 -->
+          <div class="care py-4 px-8 rounded-lg shadow-xl bg-white">
+            <div class="flex items-center justify-center">
+              <img src="img/grooming-free-img.png" class="text-center" alt="" />
+            </div>
+            <div class="text-center">
+              <h4 class="text-xl mb-4 font-bold text-red-500">Grooming</h4>
+              <p class="text-gray-400">
+                we involving the maintenance of a pet's physical appearance and
+                hygiene.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- touch section -->
+    <section id="Contact" class="bg-amber-600">
+      <div class="max-w-6xl mx-auto py-24 p-6 text-white">
+        <div class="address">
+          <div class="flex flex-col md:flex-row">
+            <h3 class="font-bold text-4xl mb-5 md:w-1/2">Get In Touch</h3>
+            <p class="md:w-1/2">
+              Receiving medicine can be an undesirable and sometimes scary
+              experience for a pet. But we can make it a little easier. Our
+              medical administrators are experienced in more than just giving
+              medicine. They take care to make sure your pet feels comfortable
+              and safe throughout the experience.
+            </p>
+          </div>
+          <!--  -->
+          <div class="mt-10 flex flex-col md:flex-row">
+            <div class="md:w-1/2">
+              <p class="font-bold text-4xl mb-5">You Can Call Us At</p>
+              <div class="mb-20">
+                <a href="tel:816-364-059" class="text-xl"
+                  >+234-070-403-594-47</a
+                >
+              </div>
+            </div>
+            <!--  -->
+            <div class="md:w-1/2">
+              <p class="font-bold text-4xl mb-5">Or Visit Us At</p>
+              <p class="">
+                Abuja avian park, plot 2255,CAD Zone CO2 Gwarimpa district,
+                After Berger HoSpital life Camp abuja
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- map section -->
+    <section class="bg-red-50">
+      <div class="map max-w-6xl mx-auto py-24 p-6">
+        <div class="map-text">
+          <h3 class="font-bold mb-10 text-4xl text-center text-red-500">
+            location on the map
+          </h3>
+          <iframe
+            class="w-full p-6"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.8345612687467!2d7.388573474067397!3d9.078831788208888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e75a91bf234db%3A0x4e1913833e4042e7!2sJulius%20Berger%20Medical%20Services%20Ltd%20-%20Julius%20Berger%20Clinic%20Abuja!5e0!3m2!1sen!2sng!4v1719468313585!5m2!1sen!2sng"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="About" class="">
+      <div class="Privacy-Policy max-w-6xl mx-auto py-24 p-6">
+        <div>
+          <h3 class="font-bold text-4xl text-center text-red-500 mb-10">
+            About us and our Privacy Policy
+          </h3>
+          <p class="text-center text-gray-400 mb-5">
+            Ltd aim to be fair and transparent with the way we collect and use
+            personal information.
+          </p>
+          <h4 class="font-bold text-yellow-400 text-center text-2xl mb-5">
+            What we collect
+          </h4>
+          <p class="text-center text-gray-400 mb-5">
+            We may collect the following information via booking forms, contact
+            and feedback forms:
+          </p>
+          <ul class="flex flex-col text-center">
+            <li class="text-gray-400 mb-5">
+              Contact information including name, address and email address.
+            </li>
+            <li class="text-gray-400 mb-5">
+              Demographic information such as postcode, preferences and
+              interests.
+            </li>
+            <li class="text-gray-400 mb-5">Information about your pet.</li>
+            <li class="text-gray-400 mb-5">
+              Other information relevant to service provision.
+            </li>
+          </ul>
+          <h4 class="font-bold text-red-500 text-center text-2xl mb-5">
+            What we do with the information
+          </h4>
+          <p class="text-center text-gray-400 mb-5">
+            We require this information to understand your needs and provide you
+            with a better service.
+          </p>
+          <h4 class="font-bold text-yellow-400 text-center text-2xl mb-5">
+            Security
+          </h4>
+          <p class="text-center text-gray-400 mb-5">
+            We are committed to ensuring that your information is secure. To
+            prevent unauthorised access or disclosure, we have put in place
+            suitable physical, electronic and managerial procedures to safeguard
+            and secure the information we collect online
+          </p>
+          <h4 class="font-bold text-red-500 text-center text-2xl mb-5">
+            Controlling your personal information
+          </h4>
+          <p class="text-center text-gray-400 mb-5">
+            We won’t share your information with any other organisations for
+            marketing, market research or commercial purposes, and we don’t pass
+            on your details to other websites.
+          </p>
+          <p class="text-center text-gray-400 mb-5">
+            We may pass on your personal information if we have a legal
+            obligation to do so, or if we have to enforce or apply our terms of
+            use and other agreements.
+          </p>
+          <h4 class="font-bold text-yellow-400 text-center text-2xl mb-5">
+            Right to access your information
+          </h4>
+          <p class="text-center text-gray-400 mb-5">
+            You may request details of personal information which we hold about
+            you. If you would like a copy of the information held on you please
+            contact your local branch. This is free of charge
+          </p>
+          <h4 class="font-bold text-red-500 text-center text-2xl mb-5">
+            Right to rectify information
+          </h4>
+          <p class="text-center text-gray-400 mb-5">
+            If you believe that any information we are holding on you is
+            inaccurate or incomplete, please email us as soon as possible. We
+            will promptly correct any information found to be incorrect.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Appointment" class="bg-red-50">
+      <div class="max-w-6xl mx-auto py-24 p-6">
+        <div class="py-8 px-4 shadow-xl rounded-xl bg-white">
+          <div class="address">
+            <h2 class="text-5xl font-bold mb-5 text-red-500 text-center">
+              Wish to Take a Trial?
+            </h2>
+            <p class="text-gray-500 text-center mb-6">
+              show your pets the love they deserve
+            </p>
+            <div class="text-center">
+              <a
+                href="tel:07040359447"
+                class="px-4 py-2 text-white rounded-xl shadow-xl bg-yellow-500"
+                >Give Us a Call</a
+              >
+            </div>
+          </div>
+          <!--  -->
+          <div
+            class="mt-12 flex flex-col items-center md:gap-5 justify-center md:flex-row md:items-center md:justify-between"
+          >
+            <div class="care md:w-1/2 flex items-center justify-center">
+              <img src="img/logo-23.jpg" class="" alt="" />
+            </div>
+            <!--  -->
+            <div class="care md:w-1/2 md:ml-32">
+              <h3 class="text-4xl mb-5 font-bold text-yellow-500">
+                sweetpetcare
+              </h3>
+              <!--  -->
+            </div>
+            <!--  -->
+            <div class="care md:w-1/2">
+              <p class="text-3xl font-bold text-red-600">Veterinary Services</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-6 bg-red-500">
+      <div>
+        <div
+          class="max-w-6xl mx-auto p-6 text-white flex flex-col items-center justify-center space-y-5 md:flex-row md:items-center md:justify-between md:space-y-0"
+        >
+          <div>
+            <p>Copyright © 2024 sweetpetcare Veterinary Services</p>
+          </div>
+          <div>
+            <p>Powered by sweetpetcare Veterinary Services</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- scroll reveal js -->
+    <script src="js/scrollreveal.min.js"></script>
+  </body>
+</html>
